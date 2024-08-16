@@ -1,0 +1,30 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  darkMode:"class",
+  theme: {
+    extend: {
+     colors:{
+      primary: "#fea928",
+      secondary:"#ed8900",
+      beige: "#F5F5DC",
+      gold:"#F5F5DC"
+
+     },
+     container:{
+      center: true,
+      padding: {
+        DEFAULT: "1rem",
+        sm: "2rem",
+        
+      }
+     }
+     
+    },
+  },
+  plugins: [],
+}
+
